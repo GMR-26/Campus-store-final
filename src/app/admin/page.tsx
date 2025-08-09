@@ -41,7 +41,7 @@ export default function AdminPage() {
             <label htmlFor="imageUrl" className="block text-sm font-medium text-gray-700">Image URL</label>
             <input type="text" name="imageUrl" id="imageUrl" placeholder="https://example.com/image.png" className="w-full px-3 py-2 mt-1 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"/>
           </div>
-          <button type="submit" className="w-full px-4 py-2 font-bold text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+          <button type="submit" className="w-full px-4 py-2 font-bold text-white bg-primary rounded-md hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-dark transition-colors">
             Add Product
           </button>
         </form>
